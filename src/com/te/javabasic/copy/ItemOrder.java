@@ -13,8 +13,18 @@ public class ItemOrder {
 
 			System.out.println("press number for corresponding food");
 			int foodInput = scanner.nextInt();
-			food[foodInput-1]++;
 			
+			
+			try {
+				if (foodInput<=3) {
+					food[foodInput-1]++;
+				}
+				else {
+					throw new FoodException("wrong input plz try again");
+				}
+			} catch (Exception e) {
+					System.out.println(e.getMessage());
+			}
 			
 			
 			
