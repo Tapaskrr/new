@@ -1,0 +1,28 @@
+{
+  "empId": "string",
+  "empName": "string",
+  "empMail": "string",
+  "empPwd": "string",
+  "secondaryInfo": {
+    "secondryId": 0,
+    "bloodGroup": "string",
+    "maritalStatus": "string",
+    "height": "string",
+    "panCard": "string"
+  },
+  "eductionalDetails": [
+    {
+      "educationPrimary": 0,
+      "yop10": "string",
+      "yop12": "string",
+      "yopDegree": "string"
+    }
+  ],
+  "skills": [
+    {
+      "skillId": 0,
+      "skill": "string"
+      ]
+    }
+  ]
+}
