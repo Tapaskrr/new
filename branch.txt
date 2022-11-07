@@ -1,0 +1,69 @@
+{
+  "empId": "string",
+  "empName": "string",
+  "empAge": "string",
+  "educationInfo": [
+    {
+      "eduId": 0,
+      "qualifiaction": "string",
+      "marks": 0,
+      "yop": "string",
+      "university": "string",
+      "institute": "string"
+    }
+  ],
+  "emplpoyeeSecondaryInfo": {
+    "sid": 0,
+    "pan": "string",
+    "height": "string",
+    "doj": "string",
+    "passport": "string",
+    "identifyMark": "string"
+  },
+  "technicalSkills": [
+    {
+      "skid": 0,
+      "skill": "string"
+    }
+  ],
+  "addressInfo": [
+    {
+      "addId": 0,
+      "addType": "string",
+      "address": "string",
+      "state": "string",
+      "country": "string",
+      "pinCode": 0
+    }
+  ],
+  "bankInfo": {
+    "bankName": "string",
+    "ifscCode": "string",
+    "accNo": 0,
+    "bid": 0
+  },
+  "contactInfo": {
+    "personnel": 0,
+    "emergency": 0
+    "cid": 0
+  },
+  "salaryInfo": {
+    "slno": 0,
+    "ctc": "string",
+    "basic": 0,
+    "bonus": 0,
+    "hrAllowance": 0,
+    "netPay": 0
+  },
+  "experienceInfo": [
+    {
+      "experience": 0,
+      "prevCTC": "string",
+      "prevCompany": "string",
+      "role": "string",
+      "doReleiving": "string",
+      "prevDOJ": "string",
+      "eid": 0
+    }
+  ]
+}
